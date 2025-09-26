@@ -8,8 +8,9 @@
             background-position: center;  /* keeps it centered */
                /*  */
         }
-        .container{
+        .wrapper{
             border-radius: 20px;
+            padding: 16px;
             background-color: rgba(0, 0, 0, 0.384);    
             width: 600px;
             margin: 0 auto;
@@ -27,6 +28,9 @@
             font-size: medium ;
             font-weight: bolder;
             color: white;
+        }
+        .container {
+            text-align: center;
         }
         p{
             color: white;

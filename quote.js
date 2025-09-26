@@ -1,11 +1,9 @@
 const container = document.querySelector(".container")
-const div = document.createElement("div")
 const button = document.createElement("button")
 const bText = document.createTextNode("Quote of a day")
 const quoteDiv= document.querySelector(".quote")
 button.append(bText)
-div.append(button)
-container.append(div)
+container.append(button)
 
 const quotes = ["Talk is cheap. Show me the code. – Linus Torvalds",
     "Programs must be written for people to read, and only incidentally for machines to execute. – Harold Abelson",
