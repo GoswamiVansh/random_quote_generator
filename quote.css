@@ -1,0 +1,40 @@
+ body{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            background-image: url(https://picsum.photos/800/600?random=1);
+            background-repeat: no-repeat;
+            background-size: cover;   /* makes it fill the screen */
+            background-position: center;  /* keeps it centered */
+               /*  */
+        }
+        .container{
+            border-radius: 20px;
+            background-color: rgba(0, 0, 0, 0.384);    
+            width: 600px;
+            margin: 0 auto;
+            height: 400px;
+            margin-top: 100px;
+            border: solid 2px  black;
+        }
+        button{
+            padding: 10px;
+            /* margin-top: 362px; */
+            background-color: rgb(184, 56, 184);
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+            font-size: medium ;
+            font-weight: bolder;
+            color: white;
+        }
+        p{
+            color: white;
+            font-family: monospace;
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 100px;
+        
+        }
+      
